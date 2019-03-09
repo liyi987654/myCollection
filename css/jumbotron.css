@@ -1,0 +1,91 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+a {
+  color: #000;
+  cursor: pointer;
+}
+a:focus,
+a:hover{
+  color: #787878;
+  cursor: pointer;
+}
+p {
+  line-height: 25px;
+}
+h4{
+  font-weight: bold;
+}
+/* .subtitles{
+  margin-top: 30px;
+} */
+.category{
+    font-weight: bold;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.masthead-nav > li {
+  display: inline-block;
+}
+.masthead-nav > li + li {
+  margin-left: 20px;
+}
+.masthead-nav > li > a {
+  padding-right: 0;
+  padding-left: 0;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff; /* IE8 proofing */
+  color: rgba(255,255,255,.75);
+  border-bottom: 2px solid transparent;
+}
+.masthead-nav > li > a:hover,
+.masthead-nav > li > a:focus {
+  background-color: transparent;
+  border-bottom-color: #a9a9a9;
+  border-bottom-color: rgba(255,255,255,.25);
+}
+.masthead-nav > .active > a,
+.masthead-nav > .active > a:hover,
+.masthead-nav > .active > a:focus {
+  color: #fff;
+  border-bottom-color: #fff;
+}
+
+@media (min-width: 768px) {
+  .masthead-brand {
+    float: left;
+  }
+  .masthead-nav {
+    float: right;
+  }
+}
+
+#tradewar{
+
+  height: 180px;
+  background-image: url(../image/tradewar.png);
+  background-position: center;
+  background-size: cover;
+  margin-right: 10px;
+}
+#kunming{
+
+  height: 180px;
+  background-image: url(../image/kunming.png);
+  background-position: center;
+  background-size: cover;
+  margin-left: 10px;
+}
+.inner{
+  padding: 20px;
+}
+.navbackground{
+  background-color: rgba(1, 1, 28, 0.82);
+}
+footer{
+    padding: 10px 0;
+    text-align: center;
+    background-color: rgba(1, 1, 28, 0.82);
+    border-top: 1px solid #e5e5e5;
+    color: #fff;
+
+}
